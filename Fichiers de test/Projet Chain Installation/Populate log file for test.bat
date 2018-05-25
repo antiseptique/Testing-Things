@@ -1,0 +1,5 @@
+@echo Rename >> "Chain_Installations.log"
+@echo DJoin >> "Chain_Installations.log"
+@echo Profile >> "Chain_Installations.log"
+@echo Kace >> "Chain_Installations.log"
+@echo Sophos >> "Chain_Installations.log"
