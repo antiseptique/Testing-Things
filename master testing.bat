@@ -22,3 +22,5 @@ goto :rebootconfirmation
 :rebootok
 shutdown -r -t 10
 del %0
+
+boulou
