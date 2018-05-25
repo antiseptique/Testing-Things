@@ -1,1 +1,0 @@
-del "Chain Installations.log"
