@@ -1,0 +1,16 @@
+goto admin_check
+
+:admin_check
+echo Droits admin requis. Detection des droits...
+net session >nul 2>&1
+
+if %errorLevel% == 0 (
+echo OK: Confirmation des droits admin.
+pause
+) else (
+echo KO: Merci de relancer le programme en admin.
+echo.
+echo Le programme va maintenant se fermer.
+pause
+exit
+)
