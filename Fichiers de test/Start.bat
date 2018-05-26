@@ -23,7 +23,8 @@ goto :start
 
 :rename
 @echo Rename >> "Files/Chain_Installations.log"
-start "/Files/Computer_Name.bat"
+REM start "/Files/Computer_Name.bat"
+call "Files/Computer_Name.bat"
 REM Securité, théoriquement inutile.
 goto :start
 
